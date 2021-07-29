@@ -1,0 +1,14 @@
+.button {
+  font: var(--button);
+  color: var(--secondary);
+  display: inline-block;
+  padding: var(--md) var(--lg);
+  text-align: center;
+  cursor: pointer;
+}
+.button--primary {
+  background-color: var(--primary);
+}
+.button--big {
+  font: var(--button-big);
+}

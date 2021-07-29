@@ -1,7 +1,9 @@
 @import "./fonts.css";
 @import "./variables.css";
 @import "./config.css";
+@import "./components/button.css";
 @import "./components/header.css";
 @import "./components/hero.css";
 @import "./components/services.css";
 @import "./components/card.css";
+@import "./components/info.css";
