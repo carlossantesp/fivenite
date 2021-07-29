@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--secondary);
+  padding-inline-start: var(--md);
+  padding-inline-end: var(--md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: var(--h-header);
+}
+.header .brand {
+  flex: 1;
+}
+.logo {
+  height: var(--h-logo);
+  margin-inline-end: 24px;
+}
+.fivenite {
+  height: var(--h-logo2);
+}
+.menu {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/icons/menu.svg);
+}
+.nav {
+  display: none;
+}
+.icons {
+  display: none;
+}
+.buttons {
+  display: none;
+}
