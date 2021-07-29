@@ -1,0 +1,38 @@
+:root {
+  /* Fuentes */
+  --OpenSans: "Open Sans", sans-serif;
+  --Burnak: "Burnak Big Condensed Bold", sans-serif;
+  /* Colores */
+  --primary: #ffff01;
+  --secondary: #2a2a2a;
+  --white: #ffffff;
+  --gray: #cccccc;
+  /* Size Family */
+  --heading: 600 55px/64px var(--Burnak);
+  --description: 600 24px/32px var(--Burnak);
+  --menu: 600 12px/24px var(--OpenSans);
+  --button-big: 600 48px/48px var(--Burnak);
+  /* Sizes */
+  --h-header: 72px;
+  --h-logo: 40px;
+  --h-logo2: 24px;
+  --w-card: 500px;
+  --w-icon: 24px;
+  --mb-card: 128px;
+  --mtb-footer: 40px;
+  --gap-footer: 16px;
+  --sm: 0.5rem;
+  --md: 1rem;
+  --lg: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  :root {
+    --heading: 600 32px/32px var(--Burnak);
+    --description: 600 16px/24px var(--Burnak);
+    --h-header: 56px;
+    --w-card: 882px;
+    --mtb-footer: 64px;
+    --gap-footer: 64px;
+  }
+}
