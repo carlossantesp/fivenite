@@ -29,3 +29,8 @@ picture {
 img {
   max-inline-size: 100%;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
