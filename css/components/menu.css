@@ -29,7 +29,7 @@
   width: var(--w-icon);
   height: var(--w-icon);
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1111px) {
   .menu {
     display: none;
   }

@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 .header .brand__icon {
   margin-inline-end: 24px;
@@ -37,5 +38,21 @@
     width: 50%;
     right: 0;
     left: initial;
+  }
+}
+
+@media screen and (min-width: 1111px) {
+  .header {
+    padding-inline-end: 0;
+  }
+  .nav {
+    width: initial;
+    position: initial;
+    height: initial;
+    background-color: transparent;
+    transform: initial;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
   }
 }

@@ -29,3 +29,18 @@
 .buttons__item {
   flex: 1;
 }
+
+@media screen and (min-width: 1111px) {
+  .navbar {
+    flex-direction: row;
+    height: initial;
+    align-items: center;
+    margin: 0;
+  }
+  .navbar__item {
+    width: initial;
+  }
+  .buttons__item {
+    flex: initial;
+  }
+}

@@ -3,10 +3,6 @@
   font: var(--menu);
   padding: var(--p-footer);
 }
-.footer .brand {
-  display: inline-block;
-  line-height: 0;
-}
 .footer__links {
   margin-top: var(--md);
   display: flex;

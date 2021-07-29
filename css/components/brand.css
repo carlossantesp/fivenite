@@ -1,4 +1,5 @@
 .brand {
+  display: inline-block;
   line-height: 0;
 }
 .brand__icon {
@@ -6,4 +7,14 @@
 }
 .brand__title {
   height: var(--h-logo2);
+}
+@media screen and (min-width: 1111px) {
+  .brand {
+    margin-inline-end: var(--sm);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .brand {
+    margin-inline-end: 24px;
+  }
 }
