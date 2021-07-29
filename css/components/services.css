@@ -1,0 +1,10 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mb-card);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: var(--md);
+  padding-inline-end: var(--md);
+  max-inline-size: var(--w-card);
+}

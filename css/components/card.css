@@ -1,0 +1,36 @@
+.card {
+  background-color: var(--white);
+}
+.card__img img {
+  border: 8px solid var(--white);
+}
+.card__title {
+  font: var(--heading);
+  color: var(--tertiary);
+  text-align: left;
+  padding-top: var(--md);
+}
+.card__description {
+  font: var(--description);
+  color: var(--secondary);
+  padding-top: var(--sm);
+}
+.card:first-child {
+  margin-top: -44px;
+}
+.card:last-child {
+  margin-bottom: var(--mb-card);
+}
+@media screen and (min-width: 992px) {
+  .card__title {
+    text-align: center;
+  }
+  .card__body {
+    max-inline-size: 700px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+  .card:first-child {
+    margin-top: -40px;
+  }
+}
