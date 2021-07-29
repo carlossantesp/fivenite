@@ -21,7 +21,7 @@
   --w-card: 500px;
   --w-icon: 24px;
   --mb-card: 128px;
-  --mtb-footer: 40px;
+  --p-footer: 40px 16px;
   --gap-footer: 16px;
   --sm: 0.5rem;
   --md: 1rem;
@@ -34,7 +34,7 @@
     --description: 600 24px/32px var(--Burnak);
     --h-header: 56px;
     --w-card: 882px;
-    --mtb-footer: 64px;
+    --p-footer: 64px 80px;
     --gap-footer: 64px;
   }
 }
