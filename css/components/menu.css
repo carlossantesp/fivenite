@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.menu__btn {
+  border: none;
+  background-color: transparent;
+  width: var(--w-icon);
+  height: var(--w-icon);
+  background-image: url(../../images/icons/menu.svg);
+  cursor: pointer;
+}
+.menu__btn.active {
+  background-image: url(../../images/icons/close.svg);
+}
+.menu__icons {
+  display: none;
+}
+.menu__icons.active {
+  display: flex;
+  gap: var(--lg);
+}
+.icons__link {
+  display: inline-block;
+  line-height: 0;
+}
+.icons__link img {
+  width: var(--w-icon);
+  height: var(--w-icon);
+}
+@media screen and (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}

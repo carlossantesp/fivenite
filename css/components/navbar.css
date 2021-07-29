@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-inline-start: var(--md);
+  margin-block-start: var(--md);
+  margin-block-end: 0;
+  height: 100vh;
+}
+.navbar__item {
+  font: var(--menu);
+  text-transform: uppercase;
+  width: 80%;
+}
+.navbar__link {
+  display: block;
+  width: inherit;
+  color: var(--gray);
+  transition: color 0.25s ease;
+}
+.navbar__link:hover {
+  color: var(--white);
+}
+.buttons {
+  display: flex;
+  text-transform: uppercase;
+  margin: 0;
+}
+.buttons__item {
+  flex: 1;
+}

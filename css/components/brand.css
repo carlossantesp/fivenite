@@ -1,0 +1,9 @@
+.brand {
+  line-height: 0;
+}
+.brand__icon {
+  height: var(--h-logo);
+}
+.brand__title {
+  height: var(--h-logo2);
+}
