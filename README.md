@@ -14,7 +14,7 @@
       Solución
     </a>
     <span> | </span>
-    <a href="https://leonidasesteban.com/proyectos/portafolio-pablo">
+    <a href="https://leonidasesteban.com/proyectos/fivenite">
       Diseño del proyecto
     </a>
   </h3>
@@ -32,7 +32,7 @@
 
 ![screenshot-fivenite](./fivenite.jpg)
 
-Se trata de crear el landing page de Fivenite, un juego gratuito multiplataforma que mantiene entretenidos a sus jugadores por horas y horas. Pues en esta ocasión te mantendrás entretenido conociendo y replicando todos los elementos de este increíble proyecto.. Revisa el demo [aquí](https://carlossantesp.github.io/fivenite/)
+Landing page de Fivenite, un juego gratuito multiplataforma que mantiene entretenidos a sus jugadores por horas y horas. Revisa el demo [aquí](https://carlossantesp.github.io/fivenite/)
 
 ## Desarrollado con
 
